@@ -9,3 +9,6 @@ Setelah melakukan post data baru dengan id 8 dan menghapusnya di Postman
 
 Menghapus id yang tidak tersedia
 ![alt text](image-2.png)
+
+Get dengan data terupdate
+![alt text](image-6.png)
