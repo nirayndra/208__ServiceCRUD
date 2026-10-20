@@ -59,12 +59,12 @@ pool.query(
     .then(result => {
         if (result.rowCount === 0) {
             return res.status(404).json({
-                message: "Data tidak ditemukan"
+                message: "Data tidak ditemukan :("
             });
         }
 
         res.json({
-            message: "Data berhasil diupdate",
+            message: "Data berhasil diupdate! :)",
             data: result.rows[0]
         });
     })
